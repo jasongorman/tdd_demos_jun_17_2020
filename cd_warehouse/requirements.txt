@@ -11,8 +11,6 @@ Customers can leave reviews for CDs they’ve bought through the
 warehouse, which gives each title an integer rating from 1- 10 and
 the text of their review if they want to say more
 
-BLAH 2.
-
 USE CASES & SCENARIOS
 
 Buy a CD
