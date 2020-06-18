@@ -13,17 +13,17 @@ the text of their review if they want to say more
 
 USE CASES & SCENARIOS
 
-Buy a CD
+Buy a CD (customer)
 * In stock, payment accepted
 * Not in stock
 * Payment rejected
 
-Search for a CD
+Search for a CD (customer)
 * Match found
 * No match found
 * Multiple matches found
 
-Receive CDs from label
+Receive CDs from label (record label)
 * Copies of single title already in catalogue
 * Title not in catalogue
 * Copies of multiple titles
