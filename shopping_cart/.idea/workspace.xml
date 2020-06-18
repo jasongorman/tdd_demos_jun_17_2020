@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="490eb48d-8f96-471b-be80-15a175223e7b" name="Default Changelist" comment="" />
+    <list default="true" id="490eb48d-8f96-471b-be80-15a175223e7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day1/java_refactoring" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/java_refactoring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1dRQq8JWc9EELEV1D2VIoVC3E01" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -125,6 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592385613150</updated>
       <workItem from="1592385617469" duration="4468000" />
+      <workItem from="1592401138381" duration="552000" />
+      <workItem from="1592465477303" duration="35000" />
     </task>
     <servers />
   </component>
@@ -164,5 +173,9 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="499" y="175" key="extract.method.dialog/0.0.1536.826/1920.0.1920.1032@0.0.1536.826" timestamp="1592390105297" />
+    <state x="209" y="39" key="new project wizard" timestamp="1592465511067">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="209" y="39" key="new project wizard/0.0.1536.826/1920.0.1920.1032@0.0.1536.826" timestamp="1592465511067" />
   </component>
 </project>

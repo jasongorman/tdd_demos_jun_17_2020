@@ -1,0 +1,34 @@
+Test-drive some code that manages the stock and orders of a CD
+warehouse. Customers can buy CDs, searching on the title and the
+artist. Record labels send batches of CDs to the warehouse. Keep a
+stock count of how many copies of each title are in the warehouse.
+Customers can only order titles that are in stock. Use dependency
+injection to fake credit card payment processing, so we can get on
+with our CD warehouse design without worrying about how that
+will be done.
+
+Customers can leave reviews for CDs they’ve bought through the
+warehouse, which gives each title an integer rating from 1- 10 and
+the text of their review if they want to say more
+
+USE CASES & SCENARIOS
+
+Buy a CD
+* In stock, payment accepted
+* Not in stock
+* Payment rejected
+
+Search for a CD
+* Match found
+* No match found
+* Multiple matches found
+
+Receive CDs from label
+* Copies of single title already in catalogue
+* Title not in catalogue
+* Copies of multiple titles
+
+Review CD
+* Leave rating
+* Leave text review
+* Customer hasn't bought CD from us
