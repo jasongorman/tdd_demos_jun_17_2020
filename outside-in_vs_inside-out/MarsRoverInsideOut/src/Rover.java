@@ -5,7 +5,12 @@ import java.util.Map;
 public class Rover {
     private String facing;
     private int[] position = {0,0};
-    private final String[] clockwise = new String[]{"N", "E", "S", "W"};
+
+    private static final String[] CLOCKWISE = new String[]{"N", "E", "S", "W"};
+    private static final String[] ANTI_CLOCKWISE = new String[]{"N", "W", "S", "E"};
+
+    private static final int FORWARD = 1;
+    private static final int BACKWARD = -1;
 
     public Rover(String facing, int x, int y) {
         this.facing = facing;
@@ -26,20 +31,19 @@ public class Rover {
     }
 
     public void right() {
-        turn(clockwise);
+        turn(CLOCKWISE);
     }
 
     public void left() {
-        String[] antiClockwise = {"N", "W", "S", "E"};
-        turn(antiClockwise);
+        turn(ANTI_CLOCKWISE);
     }
 
     public void forward() {
-        move(Gear.FORWARD);
+        move(FORWARD);
     }
 
     public void back() {
-        move(Gear.REVERSE);
+        move(BACKWARD);
     }
 
     private void turn(String[] compass) {
@@ -57,7 +61,7 @@ public class Rover {
                 {0,-1},
                 {-1,0}
         };
-        int[] vector = vectors[facingIndex(clockwise)];
+        int[] vector = vectors[facingIndex(CLOCKWISE)];
         position[0] = position[0] + (vector[0] * gear);
         position[1] = position[1] + (vector[1] * gear);
     }
@@ -69,10 +73,5 @@ public class Rover {
         commands.put('R', this::right);
         commands.put('L', this::left);
         return commands.get(instruction);
-    }
-
-    private class Gear {
-        public static final int FORWARD = 1;
-        public static final int REVERSE = -1;
     }
 }
